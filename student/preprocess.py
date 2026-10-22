@@ -3,6 +3,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
+import pandas as pd
 
 def preprocess(df):
     #Drop G1 and G2 as they're used to determine the value of G3. A useful regression model wouldn't use these parameters
