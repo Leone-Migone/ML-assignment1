@@ -5,7 +5,8 @@ import pandas as pd
 
 def preprocess(df, split_test_train):
     #Drop G1 and G2 as they're used to determine the value of G3. A useful regression model wouldn't use these parameters
-    df.drop(columns=["G1","G2"])
+    df = df.drop(columns=["G1","G2"])
+    print("Dropped")
 
     #Set the regression target as G3
     target = "G3"
