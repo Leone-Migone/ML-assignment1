@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local instructions and exploratory notebooks
+AGENTS.md
+/student/decision_tree.ipynb
+/student/decision_tree_regressor.ipynb
+/student/decision_tree_walkthrough.ipynb
+
+# Local environment pins and assignment reference documents
+/requirements.txt
+/docs/COMP3009_assessment_sheet_2627.pdf
+/docs/COMP3009MLE_Assignment1_2026.pdf
